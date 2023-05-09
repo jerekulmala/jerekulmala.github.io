@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Paikallinen Sähköposti | Jere Kulmalan henkilökohtainen sivu</title>
+	<link rel="canonical" href="http://jerekulmala.github.io/">
+	<link rel='alternate' type='application/rss+xml' title="Jere Kulmalan henkilökohtainen sivu RSS" href='/index.xml'>
+	<link rel='stylesheet' type='text/css' href='/style.css'>
+	<link rel="icon" href="/favicon.ico">
+	<meta name="description" content="Linuxia käyttäessä on tullut daemoneissa vastaan ominaisuus lähettää sähköpostia jonkin mennessä pieleen. Otin tästä enemmän selvää kun katsoin smartd:hen liittyvää configuraatiota. Ihmettelin aiemmin, että linuxissa on mail -ohjelma, joka on tekstipohjainen yksinkertainen Mail user agent - ohjelma. Aiemmin slackware- jakelua kokeillessa sain tietää tämän olemassaolosta, kun kirjautuessa sisään tuli mielenkiintoinen viesti You&rsquo;ve have new mail.
+Kirjautuminen koneelleni
+Aloin hiljattain käyttämään noin. 2013 kasattua pöytäkonetta, koska siihen sai enemmän kovalevytilaa kuin läppäriin.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow">
+	<meta charset="utf-8">
+</head>
+<body>
+<main>
+<header><h1 id="tag_Paikallinen sähköposti">Paikallinen sähköposti</h1></header>
+<article>
+
+<p>Linuxia käyttäessä on tullut daemoneissa vastaan ominaisuus lähettää sähköpostia jonkin mennessä pieleen. Otin tästä enemmän selvää kun katsoin <a href="https://wiki.archlinux.org/index.php/S.M.A.R.T.">smartd</a>:hen liittyvää configuraatiota. Ihmettelin aiemmin, että linuxissa on <code>mail</code> -ohjelma, joka on tekstipohjainen yksinkertainen <em>Mail user agent</em> - ohjelma. Aiemmin <em>slackware</em>- jakelua kokeillessa sain tietää tämän olemassaolosta, kun kirjautuessa sisään tuli mielenkiintoinen viesti <em>You&rsquo;ve have new mail</em>.</p>
+<p><img src="/mail-1.jpg" alt=""></p>
+<p>Kirjautuminen koneelleni</p>
+<p>Aloin hiljattain käyttämään noin. 2013 kasattua pöytäkonetta, koska siihen sai enemmän kovalevytilaa kuin läppäriin. Siinä oli 2:n teran kovalevy, joka on ollut siinä koneessa sen ostosta lähtien, ja toinen 1 teran levy jonka purin tallentavasta digiboxista. Ajattelin, että olisi hyödyllistä saada smartd:n kautta reaaliajassa tietoa näiden levyjen kunnosta, siltä varalta jos he hajoavat tai jotain. Selasin <a href="https://wiki.archlinux.org/index.php/Postfix">archwikiä</a> ja löysin <em>postfix-</em> nimisen ohjelman. Sivun mukaan se on <em>Mail transfer agent.</em> Seurasin ohjeita sen configuroimiseksi paikalliseksi sähköpostiksi. Laitoin smartd.conf:iin levyt näin ja viimeiseksi sähköpostiosoitteeksi root@localhost. Lisäksi kopioin archwikistä scriptin joka libnofity:n kautta lähettää vielä työpöydälle ilmoituksen että jotain on väärin.</p>
+<p><img src="/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2021-03-28_16-41-59.png" alt=""></p>
+<p>Tuolla oli myös asetus näyttää ilmoitus jos levyn lämpötila nousee tietyn rajan yli. Alunperin kopion wikistä rajan 40 astetta mutta se ylittyi omassa käytössä liian usein niin laitoin ilmoitukseksi 50 astetta.</p>
+<p><img src="/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388_2021-03-28_16-48-51-1.png" alt=""></p>
+<p>Tällä hetkellä kokeilen vielä, että saisinko postilaatikkooni vielä postia cron:ilta.</p>
+
+
+<div id="nextprev">
+<a href="/useiden-sovellusten-asentaminen-katevasti-windowsilla/"><div id="prevart">Previous:<br>Useiden sovellusten asentaminen kätevästi Windowsilla</div></a>
+<a href="/unity-projekteja/"><div id="nextart">Next:<br>Unity projekteja</div></a>
+</div>
+
+</article>
+</main>
+
+<footer>
+	<a href="http://jerekulmala.github.io/">http://jerekulmala.github.io/</a><br><br><a href="/index.xml"><img src="/rss.svg" style="max-height:1.5em" alt="RSS Feed" title="Subscribe via RSS for updates."></a>
+</footer>
+
+</body>
+</html>

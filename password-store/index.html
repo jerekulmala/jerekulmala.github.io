@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Password Store | Jere Kulmalan henkilökohtainen sivu</title>
+	<link rel="canonical" href="http://jerekulmala.github.io/">
+	<link rel='alternate' type='application/rss+xml' title="Jere Kulmalan henkilökohtainen sivu RSS" href='/index.xml'>
+	<link rel='stylesheet' type='text/css' href='/style.css'>
+	<link rel="icon" href="/favicon.ico">
+	<meta name="description" content="Olen käyttänyt jonkin aikaa salasananhallinta- ohjelmia, jotka pystyvät tallentamaan ja luomaan salasanoja eri käyttäjätileille. Pitkän aikaa olen käyttänyt keepassx- nimistä ohjelmaa.
+Vaihdoin tämän jonkin aikaa sitten passwordstore- nimiseen ohjelmaan. Se on &ldquo;unix filosofia&rdquo; mielessä tehty salasanaohjelma, joka toimii pääasiassa komentokehotteelta. Itse tykkään käyttää komentokehotteita niin tämä tuntuu kivalta käyttää. Löysin archwiki:stä linkkejä ohjelman sivuille ja hyödyllisiin scripteihin muuntaa olevassa olevista salasanaohjelmista salasanat ja käyttäjätilit tähän ohjelmaan.
+Passissa on myös integraatio git:in kanssa.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow">
+	<meta charset="utf-8">
+</head>
+<body>
+<main>
+<header><h1 id="tag_Password store">Password store</h1></header>
+<article>
+
+<p><img src="/pass.png" alt=""></p>
+<p>Olen käyttänyt jonkin aikaa salasananhallinta- ohjelmia, jotka pystyvät tallentamaan ja luomaan salasanoja eri käyttäjätileille. Pitkän aikaa olen käyttänyt keepassx- nimistä ohjelmaa.</p>
+<p>Vaihdoin tämän jonkin aikaa sitten <a href="https://www.passwordstore.org/">passwordstore</a>- nimiseen ohjelmaan. Se on &ldquo;unix filosofia&rdquo; mielessä tehty salasanaohjelma, joka toimii pääasiassa komentokehotteelta. Itse tykkään käyttää komentokehotteita niin tämä tuntuu kivalta käyttää. Löysin archwiki:stä linkkejä ohjelman sivuille ja hyödyllisiin scripteihin muuntaa olevassa olevista salasanaohjelmista salasanat ja käyttäjätilit tähän ohjelmaan.</p>
+<p>Passissa on myös integraatio git:in kanssa. Salasanatietokanta voi olla git versionhallinnassa ja sen voi sitä kautta jakaa muihin tietokoneisiin. Itse jaan sen puhelimeeni password store android sovellukseen. Aluksi tein niin, että kloonasin raspberry pihin salasanatietokannan ja pull/push:asin sinne aina kun tein uusia salasanoja. Tämä toimi aluksi hyvin koska pidin raspberry pi:tä enemmän auki, mutta nykyään se on jäänyt pienemmälle käytölle. Nyt minun pitäisi käynnistää se aina kun haluan synkronoida salasanat puhelimeen. Hiljattain korjasin tämänkin hässäkän synkronoimalla niitä suoraan tietokoneesta puhelimeen. En tehnyt tätä aluksi, koska jos synkronoisin suoraan tietokoneeseen git antaisi virhettä, että ei voitu pushata koska nykyinen branch on checkattuna siellä. Tein niin että kloonasin siitä bare repositorion mun kotikansioon ja laitoin puhelimesta passin synkronoimaan sinne. Nyt voi vain synkronoida puhelimen salasanat ja jos olen tietokoneella niin pullata siitä bare reposta salasanat tietokantaan. Tämän saisi ehkä jollain git hookillakin ratkaistua, mikä suorittaisi aina <code>git checkout -f</code>:n kun pushaan tietokoneelle, mutta en tiedä, ehkä siinä voi käydä pahasti jos olen esimerkiski tietokoneella tehnyt jotain muutoksia salasanoihin ja pushaisin puhelimesta salasanat sinne ja se ylikirjoittaisi mun muutokset tai jotain.</p>
+<p>Yksi hyödyllinen ominaisuus mikä pass:issa on ollut, on salasanojen grep:aaminen. Sillä löytää kuinka monelle eri käyttäjälle on kierrättänyt kuinka pitkään samaa salasanaa. Jonkun aikaa sitten vaihdoin monelle sivulle satunnaisemman salasanan siltä varalta että joltain niistä on jokin vuoto ja joku saa mun salasanan ja sähköpostiosoitteen käyttöön.</p>
+
+
+<div id="nextprev">
+<a href="/unity-projekteja/"><div id="prevart">Previous:<br>Unity projekteja</div></a>
+<a href="/tyoharjoittelu-koneet-kierrossa/"><div id="nextart">Next:<br>Työharjoittelu Koneet Kierrossa</div></a>
+</div>
+
+</article>
+</main>
+
+<footer>
+	<a href="http://jerekulmala.github.io/">http://jerekulmala.github.io/</a><br><br><a href="/index.xml"><img src="/rss.svg" style="max-height:1.5em" alt="RSS Feed" title="Subscribe via RSS for updates."></a>
+</footer>
+
+</body>
+</html>
