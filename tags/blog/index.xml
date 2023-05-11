@@ -11,6 +11,47 @@
 	
 	
 	<item>
+		<title>Stable Diffusion</title>
+		<link>http://jerekulmala.github.io/stable-diffusion/</link>
+		<pubDate>Thu, 11 May 2023 09:55:23 +0300</pubDate>
+		
+		<guid>http://jerekulmala.github.io/stable-diffusion/</guid>
+		<description>
+&lt;figure &gt;&lt;img src=&#34;http://jerekulmala.github.io/00033-2427241719.png&#34; title=&#34;TÄ-kuva&#34;&gt;&lt;/figure&gt;
+
+&lt;p&gt;Aloin noin kuukausi sitten kokeilemaan stable-diffusionia. Ylhäällä
+&amp;ldquo;promptaamani&amp;rdquo; kuva. Kuvia luodaan kirjoittamalla ensin kuvaus.
+Alhaalla on esimerkiksi prompt ylemmästä kuvasta:&lt;/p&gt;
+&lt;p&gt;Prompt:
+iwakura lain asymmetrical hair 1girl looking at viewer lying on bed. Steps: 10, Sampler: Euler a, CFG scale: 7, Seed: 2427241719, Size: 512x512, Model hash: eb4099ba9c, Model: abyssorangemix3AOM3_aom3a3&lt;/p&gt;
+
+&lt;figure &gt;&lt;img src=&#34;http://jerekulmala.github.io/00020-392840529.webp&#34; title=&#34;TÄ-Kuva&#34; alt=&#34;TÄ-Kuva&#34;&gt;&lt;/figure&gt;
+
+&lt;p&gt;Prompt:
+1girl, brown hair, asymmetrical hair, detailed pupils, detailed eyes. Steps: 25, Sampler: Euler, CFG scale: 7, Seed: 392840529, Size: 1024x1024, Model hash: eb4099ba9c, Model: abyssorangemix3AOM3_aom3a3, Denoising strength: 0.4&lt;/p&gt;
+&lt;p&gt;Tässä muutama kuva mitä loin tekoälyllä&lt;/p&gt;
+
+&lt;figure &gt;&lt;img src=&#34;http://jerekulmala.github.io/00000-796065662.webp&#34; title=&#34;TÄ-kuva&#34;&gt;&lt;/figure&gt;
+
+&lt;p&gt;Prompt:
+1girl, brown hair, brown eyes, detailed eyes, detailed hands,
+(masterpiece), looking at viewer, standing in the rain on a street,
+behind a rice field, yellow boots, raincoat. Steps: 30, Sampler: LMS Karras, CFG scale: 7, Seed: 796065662, Size: 712x1088, Model hash: eb4099ba9c, Model: abyssorangemix3AOM3_aom3a3, Denoising strength: 0.8&lt;/p&gt;
+
+&lt;figure &gt;&lt;img src=&#34;http://jerekulmala.github.io/0023-491236912.webp&#34; title=&#34;TÄ-kuva&#34;&gt;&lt;/figure&gt;
+
+&lt;p&gt;Prompt:
+女性 ユニセックスな外見 無表情 (dark blue hair) (yellow eyes) (ワイシャ
+ツ) (jeans) playing gitar. Steps: 20, Sampler: Euler a, CFG scale: 7, Seed: 491236912, Size: 512x512, Model hash: eb4099ba9c, Model: abyssorangemix3AOM3_aom3a3, Denoising strength: 0.7, Hires upscale: 2, Hires upscaler: Latent&lt;/p&gt;
+&lt;p&gt;Tässä laitoin oman kuvan img2img:n kautta&lt;/p&gt;
+
+&lt;figure &gt;&lt;img src=&#34;http://jerekulmala.github.io/taomakuva.webp&#34; title=&#34;Omakuva TÄ:n kautta&#34;&gt;&lt;/figure&gt;
+
+&lt;p&gt;Prompt: handsome man, detective. Steps: 25, Sampler: Euler, CFG scale: 4, Seed: 3471958956, Size: 472x512, Model hash: eb4099ba9c, Model: abyssorangemix3AOM3_aom3a3, Denoising strength: 0.3&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
 		<title>Tekstityksen tekeminen Davinci Resolvessa</title>
 		<link>http://jerekulmala.github.io/tekstityksen-tekeminen-davinci-resolvessa/</link>
 		<pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
@@ -152,11 +193,11 @@
 	</item>
 	
 	<item>
-		<title>MPV skriptaus testausta</title>
-		<link>http://jerekulmala.github.io/mpv-skriptaus-testausta/</link>
+		<title>MPV-soittimen skriptien testausta tekstityksien kanssa</title>
+		<link>http://jerekulmala.github.io/mpv-soittimen-skriptien-testausta-tekstityksien-kanssa/</link>
 		<pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
 		
-		<guid>http://jerekulmala.github.io/mpv-skriptaus-testausta/</guid>
+		<guid>http://jerekulmala.github.io/mpv-soittimen-skriptien-testausta-tekstityksien-kanssa/</guid>
 		<description>&lt;p&gt;Olen jonkin aikaa käyttänyt mpv- mediasoitinta. Sen erikoisuus on siinä, että siihen voi kirjoittaa skriptejä lisäämään ominaisuuksia. Sain idean, että olisi kätevää katsoessa vieraskielisiä videoita painaa jotain nappia ja palata edelliseen tekstitykseen ja automaattisesti näyttää tekstitykset jos olin ne piilottanut. Joskus katsoessa ilman tekstityksiä on vaikea saada selvää mitä joku sanoo, niin tämä on siihen hyödyllinen. Säästää muutaman painalluksen. Parin Ctrl+← ja v:n painalluksen sijaan saisin painettua vain yhtä nappia, esim. r:ää.&lt;/p&gt;
 &lt;p&gt;Yritän vielä selvittää jos saisin edellisen komennon jälkeen vielä piilottaa tekstitykset kun olen ehtinyt sen katsoa uudestaan.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-lua&#34; data-lang=&#34;lua&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;local&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;showAgain&lt;/span&gt;()
@@ -264,7 +305,7 @@
 		
 		<guid>http://jerekulmala.github.io/tapa-siirtaa-kuvia-puhelimesta-tietokoneelle-ilman-johtoa/</guid>
 		<description>&lt;p&gt;Monella on varmaan tapana siirtää puhelimesta kuvia tietokoneelle lähettämällä kuvat sähköpostin liitteenä itselle. Itse käytän tätä tapaa välillä, mutta kuvien lähettämisessä kestää melko kauan puhelimeni hitaan netin takia. Tänään otin paljon kuvia tietokoneen purkamisesta puhelimelleni ja halusin siirtää ne tietokoneelle, niin tuli mieleen käyttää yhtä toista keinoa, joka toimii hyvin puhelimen netilläni.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://jerekulmala.github.io/img_20201211_091045.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://jerekulmala.github.io/img_20201211_091045.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Käytin &lt;a href=&#34;https://play.google.com/store/apps/details?id=org.primftpd&amp;amp;hl=fi&#34;&gt;Primitive FTPd&lt;/a&gt;:tä. Ensin käynnistän puhelimesta yhteyden jaon ja yhdistän tietokoneen siihen. Sitten FTPd käynnistetään puhelimesta ja tietokoneella käynnistetään jokin ftp- asiakasohjelma (esimerkiksi Filezilla), jolla yhdistetään puhelimen ip osoitteeseen.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://jerekulmala.github.io/e382b9e382afe383aae383bce383b3e382b7e383a7e38383e38388-2020-12-11-091332.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 </description>
