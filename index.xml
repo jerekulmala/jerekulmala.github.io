@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-	<title>Jere Kulmalan henkilökohtainen sivu</title>
+	<title>TiVi Opiskelija | Jere Kulmala</title>
 	<link>http://jerekulmala.github.io/</link>
-	<description>Recent content on Jere Kulmalan henkilökohtainen sivu</description>
+	<description>Recent content in Jeren nettisivu on TiVi Opiskelija | Jere Kulmala</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>fi</language>
-	<lastBuildDate>Fri, 04 Nov 2022 00:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 10 May 2023 17:58:45 +0300</lastBuildDate>
     
         <atom:link href="http://jerekulmala.github.io/index.xml" rel="self" type="application/rss+xml" />
 	
@@ -16,7 +16,7 @@
 		<pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
 		
 		<guid>http://jerekulmala.github.io/tekstityksen-tekeminen-davinci-resolvessa/</guid>
-		<description>&lt;p&gt;Teen koulun projektia varten videota ja tein siihen tekstitykset. Siinä oli ongelma, kun tekstitykset vei esimerkiksi srt- tiedostoon ne eivät toimineet mediasoittimessa. Tämän sai ratkaistua muuttamalla aikajanan aloitusta oletuksesta yhdestä tunnista nollaan.&lt;/p&gt;
+		<description>&lt;p&gt;Teen koulun projektia varten videota ja tein siihen tekstitykset. Siinä oli ongelma, kun tekstitykset vie esimerkiksi srt- tiedostoon ne eivät toimi mediasoittimessa. Tämän sai ratkaistua muuttamalla aikajanan aloitusta oletuksesta yhdestä tunnista nollaan.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://jerekulmala.github.io/image.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Edit kohdasta valitse media pool, valitse aikajana (timeline) ja starting timecode&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://jerekulmala.github.io/image-1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -123,11 +123,11 @@
 	</item>
 	
 	<item>
-		<title>Useiden sovellusten asentaminen kätevästi Windowsilla</title>
-		<link>http://jerekulmala.github.io/useiden-sovellusten-asentaminen-katevasti-windowsilla/</link>
+		<title>Useiden sovellusten asentaminen Windowsilla</title>
+		<link>http://jerekulmala.github.io/useiden-sovellusten-asentaminen-windowsilla/</link>
 		<pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
 		
-		<guid>http://jerekulmala.github.io/useiden-sovellusten-asentaminen-katevasti-windowsilla/</guid>
+		<guid>http://jerekulmala.github.io/useiden-sovellusten-asentaminen-windowsilla/</guid>
 		<description>&lt;p&gt;Aloitettuani työharjoittelun PC- räätälissä olen muutamalle koneelle asiakasta esiasentanut sovelluksia listasta, joita myyntikoneille tarjotaan. Tähän mennessä ohjelmat on asennettu käsin lataamalla ohjelman asennusohjelman kotisivulta. Koneille tarjotaan muunmuassa asennettavaksi: Firefox, Chrome, Thunderbird, Malwarebytes, Libreoffice, Adobe Reader ja CDburnerXP. Ohjelmien installerien lataaminen ei kauaa vie, mutta se lisää paljon klikkailua. Asennusohjelmat pitäisi poistaa homman päätyttyä ja selainhistoria poistaa.&lt;/p&gt;
 &lt;p&gt;Kuulin vakituiselta, että aiemmin heillä oli käytössä skripta, joka asensi ohjelmat automaattisesti. Tosin sen käyttö lopetettiin, koska Windows Defender merkkasi sen virukseksi ja defender on vaikea saada suostuttelemaan suorittamaan sitä.&lt;/p&gt;
 &lt;p&gt;Olin aiemmin käyttänyt chocolatey- nimistä ohjelmaa, joka on vähän kuin Linux- jakeluiden paketinhallinta, mutta Windowsille. Sitä käytetään komentokehotteessa ja se pystyy asentamaan/päivittämään/poistamaan ohjelmia. Sen käyttö on melko yksinkertaista, ohjelman asentamiseen avataan powershell ja se on saatavilla choco- komentona. Esimerkiksi choco install firefox asentaa Firefoxin, choco uninstall poistaa, choco search etsii saatavilla olevia sovelluksia, ja loput toiminnot löytyvät choco -? komennolla tai chocon wikistä. Chocolateyllä saatavat ohjelmat ovat käyttäjien lisäämiä. Chocolatey on avointa lähdekoodia ja siitä on saatavilla myös maksullisia versioita.&lt;/p&gt;
@@ -160,33 +160,33 @@
 		<description>&lt;p&gt;Olen jonkin aikaa käyttänyt mpv- mediasoitinta. Sen erikoisuus on siinä, että siihen voi kirjoittaa skriptejä lisäämään ominaisuuksia. Sain idean, että olisi kätevää katsoessa vieraskielisiä videoita painaa jotain nappia ja palata edelliseen tekstitykseen ja automaattisesti näyttää tekstitykset jos olin ne piilottanut. Joskus katsoessa ilman tekstityksiä on vaikea saada selvää mitä joku sanoo, niin tämä on siihen hyödyllinen. Säästää muutaman painalluksen. Parin Ctrl+← ja v:n painalluksen sijaan saisin painettua vain yhtä nappia, esim. r:ää.&lt;/p&gt;
 &lt;p&gt;Yritän vielä selvittää jos saisin edellisen komennon jälkeen vielä piilottaa tekstitykset kun olen ehtinyt sen katsoa uudestaan.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-lua&#34; data-lang=&#34;lua&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;local&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;showAgain&lt;/span&gt;()
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;local&lt;/span&gt; visible &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; mp.get&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;\&lt;/span&gt;_property&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;\&lt;/span&gt;_native(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;sub-visibility&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;local&lt;/span&gt; visible &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; mp.get_property_native(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;sub-visibility&amp;#34;&lt;/span&gt;)
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; visible &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;then&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      mp.set&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;\&lt;/span&gt;_property&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;\&lt;/span&gt;_native(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;sub-visibility&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      mp.set_property_native(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;sub-visibility&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;)
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   mp.commandv(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;sub-seek&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;-1&amp;#34;&lt;/span&gt;)
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mp.add&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;\&lt;/span&gt;_key&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;\&lt;/span&gt;_binding(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;r&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;showAgain&amp;#34;&lt;/span&gt;, showAgain)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mp.add_key_binding(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;r&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;showAgain&amp;#34;&lt;/span&gt;, showAgain)
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Tässä yritin jonkin aikaa selvittää, jos saisin skriptin laskemaan tekstityksen keston automaattisesti ja piilottaa tekstitykset vielä uudestaan sen ajan kuluttua, mutta tähän mennessä en saanut sitä toimimaan. Tyydyin siihen, että tekstityksen piiloutuisivat automaattisesti 4:n sekunnin kuluttua.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-lua&#34; data-lang=&#34;lua&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;hide&lt;/span&gt;()
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   mp.set&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;\&lt;/span&gt;_property&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;\&lt;/span&gt;_native(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;sub-visibility&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   mp.set_property_native(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;sub-visibility&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;)
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;local&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;showAgain&lt;/span&gt;()
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   mp.command(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;sub-seek -1&amp;#34;&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;local&lt;/span&gt; visible &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; mp.get&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;\&lt;/span&gt;_property&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;\&lt;/span&gt;_native(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;sub-visibility&amp;#34;&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#75715e&#34;&gt;-- local timing1 = mp.get\_property\_native(&amp;#34;sub-start&amp;#34;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#75715e&#34;&gt;-- local timing2 = mp.get\_property\_native(&amp;#34;sub-end&amp;#34;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;local&lt;/span&gt; visible &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; mp.get_property_native(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;sub-visibility&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#75715e&#34;&gt;-- local timing1 = mp.get_property_native(&amp;#34;sub-start&amp;#34;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#75715e&#34;&gt;-- local timing2 = mp.get_property_native(&amp;#34;sub-end&amp;#34;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#75715e&#34;&gt;-- local timing = timing2 - timing1&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; visible &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;then&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      mp.set&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;\&lt;/span&gt;_property&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;\&lt;/span&gt;_native(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;sub-visibility&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      mp.add&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;\&lt;/span&gt;_timeout(&lt;span style=&#34;color:#ae81ff&#34;&gt;4&lt;/span&gt;, hide)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      mp.set_property_native(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;sub-visibility&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      mp.add_timeout(&lt;span style=&#34;color:#ae81ff&#34;&gt;4&lt;/span&gt;, hide)
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#75715e&#34;&gt;-- print(timing)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mp.add&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;\&lt;/span&gt;_key&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;\&lt;/span&gt;_binding(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;r&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;showAgain&amp;#34;&lt;/span&gt;, showAgain)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mp.add_key_binding(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;r&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;showAgain&amp;#34;&lt;/span&gt;, showAgain)
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
 	</item>
 	
