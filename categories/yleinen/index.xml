@@ -43,6 +43,8 @@ behind a rice field, yellow boots, raincoat. Steps: 30, Sampler: LMS Karras, CFG
 &lt;p&gt;Prompt:
 女性 ユニセックスな外見 無表情 (dark blue hair) (yellow eyes) (ワイシャ
 ツ) (jeans) playing gitar. Steps: 20, Sampler: Euler a, CFG scale: 7, Seed: 491236912, Size: 512x512, Model hash: eb4099ba9c, Model: abyssorangemix3AOM3_aom3a3, Denoising strength: 0.7, Hires upscale: 2, Hires upscaler: Latent&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://jerekulmala.github.io/00009-3593507976.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Prompt: (rakka), (haibane renmei), (halo above head), (grey wings on back), (brown eyes), ((brown hair)), (sailor clothes), (under a tree), (winter), looking at viewer, slightly smiling.Negative prompt: long ears, multiple arms, multiple legs, multiple halo.Steps: 30, Sampler: DPM++ 2M, CFG scale: 7, Seed: 3593507976, Size: 424x512, Model hash: eb4099ba9c, Model: abyssorangemix3AOM3_aom3a3, Denoising strength: 0.7, Hires upscale: 2, Hires steps: 10, Hires upscaler: Latent&lt;/p&gt;
 &lt;p&gt;Tässä laitoin oman kuvan img2img:n kautta&lt;/p&gt;
 
 &lt;figure &gt;&lt;img src=&#34;http://jerekulmala.github.io/taomakuva.webp&#34; title=&#34;Omakuva TÄ:n kautta&#34;&gt;&lt;/figure&gt;
